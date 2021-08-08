@@ -9,5 +9,5 @@ Or
 ```
 yarn
 ```
-
-See it live [here](https://thejawadali.github.io/vanilla-js-projects/toogle/)
+### Demo
+See it [here](https://thejawadali.github.io/toogle/)
