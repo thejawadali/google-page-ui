@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="./style.css">
+  <title>Google</title>
+</head>
+<style>
+  #btns a:active {
+    background: #eee;
+  }
+</style>
+
+<body class="text-sm box-border m-4">
+  <header class="flex justify-between">
+    <div class="flex items-center">
+      <a class="p-3 hover:underline" href="#">About</a>
+      <a class="p-3 hover:underline" href="#">Store</a>
+    </div>
+    <div class="flex items-center">
+      <a class="p-3 hover:underline" href="#">Gmail</a>
+      <a class="p-3 hover:underline" href="#">Image</a>
+      <a class="p-3" href="#">
+        <span class="material-icons">apps</span>
+      </a>
+      <a class="p-3" href="#">
+        <span class="material-icons">account_circle</span>
+      </a>
+    </div>
+  </header>
+
+  <main class="flex flex-col mt-60 items-center">
+    <img class="h-28 object-contain"
+      src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Icon">
+    <div class="mt-8 w-full">
+      <div id="search" class="border-2 rounded-full flex justify-between items-center w-1/2 mx-auto p-3">
+        <div class="material-icons text-gray-500">search</div>
+        <input class="flex-1 focus:outline-none p-1" type="text" placeholder="Search Google or type a URL">
+        <div class="material-icons cursor-pointer">mic</div>
+      </div>
+      <div class="text-center mt-12" id="btns">
+        <a class="m-3 bg-gray-200 p-3" href="#">Google Search</a>
+        <a class="m-3 bg-gray-200 p-3" href="#">I'm Feeling Lucky</a>
+      </div>
+    </div>
+  </main>
+
+</body>
+
+</html>
