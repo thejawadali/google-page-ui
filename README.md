@@ -5,7 +5,9 @@ A very simple Google home page clone with tailwindcss
 ```
 npm install
 ```
-OR
+Or
 ```
 yarn
 ```
+
+See it live [here](https://thejawadali.github.io/vanilla-js-projects/toogle/)
