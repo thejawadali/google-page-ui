@@ -1,4 +1,4 @@
-# Toogle
+# Google
 A very simple Google home page clone with tailwindcss
 
 ## Project setup
