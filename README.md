@@ -10,4 +10,4 @@ Or
 yarn
 ```
 ### Demo
-See it [here](https://thejawadali.github.io/toogle/)
+See it [here](https://thejawadali.github.io/google/)
