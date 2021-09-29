@@ -16,11 +16,11 @@
 </style>
 
 <body class="text-sm box-border m-4">
-  <header class="flex justify-between">
-    <div class="flex items-center">
+  <header class="flex justify-end">
+    <!-- <div class="flex items-center">
       <a class="p-3 hover:underline" href="#">About</a>
       <a class="p-3 hover:underline" href="#">Store</a>
-    </div>
+    </div> -->
     <div class="flex items-center">
       <a class="p-3 hover:underline" href="#">Gmail</a>
       <a class="p-3 hover:underline" href="#">Image</a>
@@ -34,10 +34,10 @@
   </header>
 
   <main class="flex flex-col mt-60 items-center">
-    <img class="h-28 object-contain"
+    <img class="h-16 sm:h-28 object-contain"
       src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Icon">
     <div class="mt-8 w-full">
-      <div id="search" class="border-2 rounded-full flex justify-between items-center w-1/2 mx-auto p-3">
+      <div id="search" class="border-2 focus-within:border-gray-400  rounded-full flex justify-between items-center w-11/12 md:w-4/5 lg:w-1/2 mx-auto p-2">
         <div class="material-icons text-gray-500">search</div>
         <input class="flex-1 focus:outline-none p-1" type="text" placeholder="Search Google or type a URL">
         <div class="material-icons cursor-pointer">mic</div>
